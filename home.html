@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -20,58 +21,49 @@
       </nav>
     </header>
 
-    <main>
+    <main >
      <section id="about">
-      <table>
-
-        <tr><th><h2>about</h2></th></tr>
-        <tr><th><p>this is the about section in the web sit.</p></th></tr>
-
-      </table>
-      
-      
+        <h2>about</h2>
+  
+        <p class="abt">this is the about section in the web sit.</p>
+ 
      </section>
       
      <section id="contact">
-      <table border="0">
-          <tr>
-            <th><h2>contact</h2></th>
-           </tr>
-             
-           <tr>
-            <th> <p>this is the contact section in the web sit.</p></th>
-           </tr>
-           </table>
+     
+          
+             <h2>contact</h2>
+             <p>this is the contact section in the web sit.</p>
+           
+              
                    
-           <form action="get">
-            <table>
-              <tr><th><label for="name">name:</label></th></tr>  
+           <form>
+             <table>
+             
+               <tr><th><label for="name" class="color">name:</label> </th></tr>
                <tr><th><input type="text" name="name" required></th></tr>
              
-           <tr><th><label for="email">email:</label></th></tr> 
-            <tr><th><input type="email" name="email" required></th></tr>
+                <tr><th><label for="email" class="color">email:</label></th></tr>
+               <tr><th><input type="email" name="email" required></th></tr> 
   
   
-            <tr><th><label for="message">message:</label></th></tr>
-            <tr><th><textarea name="message"  required></textarea></th></tr>
+                <tr><th><label for="message" class="color">message:</label></th></tr>
+                <tr><th><textarea name="message"  required></textarea></th></tr>
                     
-           <tr><th><input type="submit" value="submit"></th></tr> 
+                <tr><th><input type="submit" value="submit" id="boutt"></th></tr>
 
-          </table>
+              </table>
              </form>
-
-            
-
-     
-      
-
      </section>
       
+
+
+
      <section id="resume">
-      <table>
-       <tr><th><h2>resume</h2></th></tr> 
-        <tr><th><p>this is the resume section in the web sit.</p></th></tr>
-      </table>
+      
+       <h2>resume</h2> 
+        <p>this is the resume section in the web sit.</p>
+      
       
       <table border="1">
         <tr>
@@ -87,10 +79,17 @@
 
 
      <section id="work">
-      <table>
-        <tr><th><h2>work</h2></th></tr>
-        <tr><th><p>this is the work section in the web sit.</p></th></tr>
-        <tr><th><iframe src="https://youtu.com/embed/C-EHoNfkoDM" frameborder="1"></iframe></th></tr>
+       
+        <h2>work</h2>
+        <p>this is the work section in the web sit.</p>
+        <table>
+          <tr>
+              <th><iframe src="https://www.youtube.com/watch?v=salY_Sm6mv4&list=PPSV" frameborder="1"></iframe></th>
+
+          </tr>
+
+        </table>
+        
 
 
       </table>
